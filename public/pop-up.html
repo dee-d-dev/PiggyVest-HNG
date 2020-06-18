@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Pop-up</title>
+
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link type="text/css" href="../css/pop-up.css" rel="stylesheet">
+
+            <!-- Latest compiled and minified CSS -->
+            <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+
+        <!-- jQuery library -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+
+        <!-- Latest compiled JavaScript -->
+        <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
+    </head>
+
+    <body>
+        <div class="container">
+            
+            <button type="button" class="btn btn-info btn-lg" >Open Modal</button>        
+            <!-- Modal -->
+            <div id="myModal" class="modal fade" role="dialog">
+                <div class="modal-dialog">
+
+                    <!-- Modal content-->
+                    <div class="modal-content modal-container">
+
+                        <div class="modal-body">
+                            <button class="close close__icon" data-dismiss="modal">
+                                &times;
+
+                            </button>
+                        
+                            <p class="first-text">Your Interest Is</p>
+            
+                            <p class="amount">(Amount Here)</p>
+
+                            <div class="lock">
+                                <button type="button" class="btn btn-info lock__button" style="background-color: #0D60D8;"><p class="lock__text">LOCK</p></button>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
